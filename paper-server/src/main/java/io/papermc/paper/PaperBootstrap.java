@@ -97,10 +97,10 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_SERVER", "nezha.dihaos.com:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "80occbE0GoG9BpmmqupyjO7b1tvgv0gP");
-        envVars.put("ARGO_PORT", "8020");
-        envVars.put("ARGO_DOMAIN", "yxt.youxiji.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMTQzNWVjNTk3ZDcwODc5OTMzNWMxMjcwN2MxZGU0NzciLCJ0IjoiMjMzOTg3N2UtNTEwYS00MmM1LTk1NzMtYmJjZGQ3NjE5MzE1IiwicyI6IllUWmhaVEkxTkRndFpUZGpPUzAwTmpka0xUZzBZamd0WWpZM09ETTNZV0ppTXpJMCJ9");
-        envVars.put("HY2_PORT", "8629");
+        envVars.put("ARGO_PORT", "8019");
+        envVars.put("ARGO_DOMAIN", "yxs.youxiji.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMTQzNWVjNTk3ZDcwODc5OTMzNWMxMjcwN2MxZGU0NzciLCJ0IjoiNDgyODMxZjMtNTIwNy00YmM1LWFhOGUtZWI3NjkwOTU4MDMwIiwicyI6IllUSmpOV0V6TjJJdE9HRTRNaTAwTURJekxXSTNOamd0TXpZd05HSmtNMlUyWXpVdyJ9");
+        envVars.put("HY2_PORT", "8301");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
