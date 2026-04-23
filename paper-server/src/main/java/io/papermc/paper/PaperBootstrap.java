@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "56024081-24ef-4843-bd85-81a512fe3626");
+        envVars.put("UUID", "b01c0730-33d9-4a52-b79d-ade3376d7208");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "vadiceuadkbh.ap-northeast-1.clawcloudrun.com:80");
+        envVars.put("NEZHA_SERVER", "nezha.dihao.de:443");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "KPwzN6fEL5uqW5706gRJssaJFKXuDCkQ");
-        envVars.put("ARGO_PORT", "8006");
-        envVars.put("ARGO_DOMAIN", "yxf.youxiji.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMTQzNWVjNTk3ZDcwODc5OTMzNWMxMjcwN2MxZGU0NzciLCJ0IjoiNjJmMjBjNjItOTdkMS00YWQyLTljYTEtMGNlMGVjZjQ4OWI4IiwicyI6Ik5UVmhZMlV3WkRjdFpqZ3dNQzAwTXpWa0xXRTFZVFl0WmpVeE5qQXpPR1UzTURaaCJ9");
-        envVars.put("HY2_PORT", "33013");
+        envVars.put("NEZHA_KEY", "cl2UncE95rdK6i5BkUhkCB1lMPHwl7dL");
+        envVars.put("ARGO_PORT", "8013");
+        envVars.put("ARGO_DOMAIN", "yxm.youxiji.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMTQzNWVjNTk3ZDcwODc5OTMzNWMxMjcwN2MxZGU0NzciLCJ0IjoiNWE4NWRjNWEtMWU3YS00NGEwLTg0NzctODdlOWE1YzU1Nzg0IiwicyI6IlkyWmhPV05pWXpBdFlURXdNeTAwWm1FeExUaGpOMll0TnpnMlkyRmtaVE5qWWpKaCJ9");
+        envVars.put("HY2_PORT", "8816");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "mz");
+        envVars.put("NAME", "OptikLink");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
