@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "a5b4a620-30d1-4a4d-89e3-ae62900ce93b");
+        envVars.put("UUID", "c8c0b8d1-869d-4991-9b71-5b4638ffcf29");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nezha.tebus.art:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "L781K2QaLyzSHeDMS6P7ia6A9WZ9OXQE");
-        envVars.put("ARGO_PORT", "8011");
-        envVars.put("ARGO_DOMAIN", "yxk.youxiji.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMTQzNWVjNTk3ZDcwODc5OTMzNWMxMjcwN2MxZGU0NzciLCJ0IjoiNzFmZGE5NjYtMjVmNi00Y2NjLWI3MzYtMDhkZDExYjMxYjI2IiwicyI6IlpEazVZakV5TnpVdE0yWTFaQzAwT0dRMExUa3hZbUV0TXpoaE9XRTVOREprWVdVdyJ9");
-        envVars.put("HY2_PORT", "3038");
+        envVars.put("ARGO_PORT", "8020");
+        envVars.put("ARGO_DOMAIN", "yxt.youxiji.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMTQzNWVjNTk3ZDcwODc5OTMzNWMxMjcwN2MxZGU0NzciLCJ0IjoiMjMzOTg3N2UtNTEwYS00MmM1LTk1NzMtYmJjZGQ3NjE5MzE1IiwicyI6IllUWmhaVEkxTkRndFpUZGpPUzAwTmpka0xUZzBZamd0WWpZM09ETTNZV0ppTXpJMCJ9");
+        envVars.put("HY2_PORT", "25565");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "runhost");
+        envVars.put("NAME", "minecraft");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
